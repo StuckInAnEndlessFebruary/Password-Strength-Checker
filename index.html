@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>password strength checker</h1>
+      <p>password:</p>
+      <input id="input" type="text" placeholder="type your password here..." />
+      <p>strength of password:</p>
+      <progress
+        id="bar"
+        value="0"
+        max="100"
+        style="--value: 0; --max: 100"
+      ></progress>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
